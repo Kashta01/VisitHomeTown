@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Orbitron', sans-serif; 
+    
+}
+
+div {
+    width: 100%;  
+}
+
+.visitGiza {
+    width: 100%;
+    height: 945px;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url("assets/giza.webp");
+}
+
+.Gtext {
+    color: black;
+    background-color: #fefae0;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    /* text-shadow: 1px 1px 2px white; */
+    
+}
+
+#enjoy {
+    background-color: #fb8500;
+}
+
+.visitTitle, 
+.visitGiza { 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    /* text-shadow: 1px 1px 2px black; */
+}
+
+.top3acts {
+    overflow: hidden;
+    background: linear-gradient(#8ecae6, #fb8500);
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 600px;
+    font-weight: bold;
+}
+
+.top3acts h1 {
+    text-transform: capitalize;
+    margin-top:50px;
+    text-shadow: 1px 1px 2px white;
+    letter-spacing: 5px;
+}
+
+.roundImages {
+    padding: 0 100px 0 50px;
+}
+
+.roundImages h2 {
+    text-transform: capitalize;
+}
+
+
+.acts-img {
+    width: 150px;
+    height: 130px;
+    border-radius: 50%;
+}    
+
+.try{
+    width: 100%;
+    height: 700px;
+    border-radius: 50%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.spanC{
+    /* border: 5px solid #ffd60a; */
+    background-color: #ffd60a;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.Mycard {
+    margin: 50px 0 20px 0;
+}
+
+.guide{
+    width: 400px;
+    padding: 50px 30px;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom: 10px solid #606c38;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background: #fefae0;
+    box-shadow: 4px 4px 4px 4px #bc6c25;
+    animation-name: cardAnim;
+    animation-duration: 4s;
+    cursor: pointer;
+}
+
+@keyframes cardAnim {
+    from {background: #606c38;}
+    to {background: #fefae0;}
+  }
+
+.guide:hover {
+    border-bottom: 10px solid #94ac48;
+    background: #e6dc9d;
+    box-shadow: 4px 4px 4px 4px #1b0d01;
+}
+
+.pic{
+    width: 150px;
+    height: 200px;
+    border: 4px solid #023047;
+    border-radius: 5px; 
+}
+.cardtext{
+    text-shadow: 1px 1px 2px white;
+}
+
+#footerh3 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footerh3 a {
+    color: #fb8500;
+}
+
+#footerh3 a:hover {
+    color: #f1a753;
+}
